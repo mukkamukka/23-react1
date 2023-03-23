@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 23_React1
+## 김동건
+### 3주차(2023-03-16)
+node.js 버전확인
+  node -- version
+  node -v
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm 버전확인
+  npm -v
 
-## Available Scripts
+리액트 개념 정리
+  -복잡한 사이트를 쉽고 빠르게 만들고, 관리하기 위해 만들어진 것이 바로 리엑트
+  -다른표현으로는 spa를 쉽고 빠르게 만들 수 있도록 해주는 도구라고 생각하면된다.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+리액트의 장점
+  1. 빠른 업데이트와 렌더링 속도
+  2. 컴포넌트 기반 구조
+    -리엑트의 모든 페이지는 컴포넌트로 구성
+    -하나의 컴포넌트는 다른 여러 개의 컴포넌트의 조합으로 구성할 수 있음
+    -그래서 리액트로 개발을 하다 보며 ㄴ레고 블록을 조립하는 것처럼 컴포넌트를 조합해서 웹사이트를 개발하게 됨
+    -재사용성의 뛰어남
+  3. 재사용성
+    -반복적인 작업을 줄여주기 떄문에 생산성을 높여 줌
+    -또한 유지보수가 용이
+    -재사용이 가능 하려면 해당 모듈의 의존성이 없어야 함
+  4. 든든한 지원군
+    -메타에서 오픈소스 프로젝트로 관리하고 있어 계속 발전하고 있음
+  5. 활발한 지식 공유 & 커뮤니티
+  6. 모바일 앱 개발가능
+    -리액트 네이티브라는 모바일 환경 UI프레임워크를 사용하면 크로스 플랫폼 모바일 앱을 개발할 수 있음
+리액트의 단점
+  1. 방대한 학습량
+    -자바스크립트를 공부한 경우 빠르게 학습할 수 있음
+  2. 높은 상태 관리 복잡도
