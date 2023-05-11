@@ -12,11 +12,12 @@ import Accommodate from './chapter_07/Accommodate';
 import midterm from './practice/midterm'; 
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chatpter_11/SignUp';
+import Caculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <Caculator />
   </React.StrictMode>
 );
 
