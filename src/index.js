@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './chapter_03/Library'
-import CommentList from './chapter_05/CommentList'
-import NotificationList from './chapter_06/NotificationList';
-import Notification from './chapter_06/Notification';
-import Accommodate from './chapter_07/Accommodate';
-import midterm from './practice/midterm'; 
-import AttendanceBook from './chapter_10/AttendanceBook';
-import SignUp from './chatpter_11/SignUp';
-import Caculator from './chapter_12/Calculator';
+// import Library from './chapter_03/Library'
+// import CommentList from './chapter_05/CommentList'
+// import NotificationList from './chapter_06/NotificationList';
+// import Notification from './chapter_06/Notification';
+// import Accommodate from './chapter_07/Accommodate';
+// import midterm from './practice/midterm'; 
+// import AttendanceBook from './chapter_10/AttendanceBook';
+// import SignUp from './chatpter_11/SignUp';
+// import Caculator from './chapter_12/Calculator';
+import MainContent from './chapter_14/MainContent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Caculator />
+    <MainContent />
   </React.StrictMode>
 );
 
